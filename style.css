@@ -1,5 +1,13 @@
 body {
   font-family: Arial;
+  background-color: lavenderblush;
+}
+
+#video{
+  justify-content:center;
+  display: flex;
+  margin-top: 10em;
+  
 }
 
 #overlay {
